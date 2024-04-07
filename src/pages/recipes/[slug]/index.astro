@@ -1,0 +1,41 @@
+---
+import { type CollectionEntry, getCollection } from "astro:content";
+import Recipes from "@layouts/Recipes.astro";
+import RecipeDetails from "@layouts/RecipeDetails.astro";
+import getSortedRecipes from "@utils/getSortedRecipes";
+import getPageNumbers from "@utils/getPageNumbers";
+import getRecipePagination from "@utils/getRecipePagination";
+
+export interface Props {
+  recipe: CollectionEntry<"recipe">;
+}
+
+export async function getStaticPaths() {
+  const recipes = await getCollection("recipe", ({ data }) => !data.draft);
+
+  const recipeResult = recipes.map(recipe => ({
+    params: { slug: recipe.slug },
+    props: { recipe },
+  }));
+
+  const pagePaths = getPageNumbers(recipes.length).map(pageNum => ({
+    params: { slug: String(pageNum) },
+  }));
+
+  return [...recipeResult, ...pagePaths];
+}
+
+const { slug } = Astro.params;
+const { recipe } = Astro.props;
+
+const recipes = await getCollection("recipe");
+
+const sortedRecipes = getSortedRecipes(recipes);
+
+const pagination = getRecipePagination({
+  recipes: sortedRecipes,
+  page: slug,
+});
+---
+
+{recipe ? <RecipeDetails recipe={recipe} /> : <Recipes {...pagination} />}

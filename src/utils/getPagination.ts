@@ -31,5 +31,4 @@ const getPagination = <T>({
     paginatedPosts,
   };
 };
-
 export default getPagination;

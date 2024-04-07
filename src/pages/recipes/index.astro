@@ -1,0 +1,19 @@
+---
+import { getCollection } from "astro:content";
+import Recipes from "@layouts/Recipes.astro";
+import getSortedRecipes from "@utils/getSortedRecipes";
+import getRecipePagination from "@utils/getRecipePagination";
+
+const recipes = await getCollection("recipe");
+
+const sortedRecipes = getSortedRecipes(recipes);
+
+const pagination = getRecipePagination({
+  recipes: sortedRecipes,
+  page: 1,
+  isIndex: true,
+});
+---
+
+<Recipes {...pagination} />
+

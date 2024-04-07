@@ -3,6 +3,7 @@ import { Resvg } from "@resvg/resvg-js";
 import { type CollectionEntry } from "astro:content";
 import postOgImage from "./og-templates/post";
 import siteOgImage from "./og-templates/site";
+import recipeOgImage from './og-templates/recipe';
 
 const fetchFonts = async () => {
   // Regular Font
@@ -55,5 +56,10 @@ export async function generateOgImageForPost(post: CollectionEntry<"blog">) {
 
 export async function generateOgImageForSite() {
   const svg = await satori(siteOgImage(), options);
+  return svgBufferToPngBuffer(svg);
+}
+
+export async function generateOgImageForRecipe(recipe: CollectionEntry<"recipe">) {
+  const svg = await satori(recipeOgImage(recipe), options);
   return svgBufferToPngBuffer(svg);
 }
