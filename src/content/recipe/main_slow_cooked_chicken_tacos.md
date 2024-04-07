@@ -2,7 +2,8 @@
 title: Slow cooked Chicken Tacos
 description: Easy family meal, just need a slow cooker and chicken thighs
 author: Michael Osborne
-slug: chicken-tacos
+slug: slow-cooked-chicken-tacos
+tags:
   - savoury
   - dinner
 pubDatetime: 2024-03-31T15:20:00Z

@@ -2,7 +2,8 @@
 title: Fettuccini Carbonara
 description: A recipe for Carb that Adam made when he was in primary school
 author: Michael Osborne
-slug: fett-carb
+slug: main-fettucini-carbonara
+tags:
   - savoury
   - dinner
 pubDatetime: 2024-03-31T15:20:00Z

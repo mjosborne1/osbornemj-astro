@@ -8,7 +8,7 @@ import sitemap from "@astrojs/sitemap";
 import { SITE } from "./src/config";
 
 // https://astro.build/config
-export default defineConfig({
+export default defineConfig({ 
   output: 'server',
   adapter: netlify(),
   site: SITE.website,

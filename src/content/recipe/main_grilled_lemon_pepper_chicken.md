@@ -2,7 +2,8 @@
 title: Grilled Lemon Pepper Chicken
 description: My favourite grilled lemon pepper chicken recipe
 author: Michael Osborne
-slug: lemon-pepper-chicken
+slug: grilled-lemon-pepper-chicken
+tags:
   - savoury
   - dinner
 pubDatetime: 2024-03-31T15:20:00Z

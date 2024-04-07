@@ -52,12 +52,12 @@ export const SOCIALS: SocialObjects = [
     name: "Mail",
     href: "mailto:mjosborne1@gmail.com",
     linkTitle: `Send an email to ${SITE.title}`,
-    active: false,
+    active: true,
   },
   {
     name: "Discord",
     href: "https://discord.com/godbear159",
     linkTitle: `${SITE.title} on Discord`,
-    active: false,
+    active: true,
   }
 ];

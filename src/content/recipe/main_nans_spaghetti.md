@@ -3,6 +3,7 @@ title: Nan's Spaghetti
 description: A recipe for Joan's Spaghetti, a family favourite
 author: Michael Osborne
 slug: spaghetti-bol
+tags:
   - savoury
   - dinner
 pubDatetime: 2024-03-31T15:20:00Z

@@ -1,7 +1,8 @@
 ---
 title: Easy Quiche / Shake and Bake Quiche
 author: Michael Osborne
-slug: easy-quiche
+slug: main-easy-quiche
+tags:
   - savoury
   - dinner
 description: This dish is shake and bake, no fancy pastry skills are required. 
