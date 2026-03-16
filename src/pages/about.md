@@ -24,10 +24,11 @@ As a Senior Appliction Specialist I helped to maintain Pathology Informations Sy
 
 ### Senior Research Technician - CSIRO AEHRC
 In August 2023, I left Mater after 14 years to work on a large National project - Sparked, the Australian FHIR accelerator run by CSIRO AEHRC. Mater was a good place to work, but I couldn't knock back the chance to work on this once in a liftetime project.
-Progressing Health System Interoperability has been my life for 25 years - it finally feels like we have some good momentum in Australia.
+Progressing Health System Interoperability has been my life for 30 years - it finally feels like we have some good momentum in Australia.
 
 ## Digital Health Experience
-* Sparked FHIR Accelerator - Terminologist
+* Sparked FHIR Accelerator - Terminologist and FHIR IG developer
+* HL7 AU eRequesting WG co-chair (2026-2027)
 * Australian Passive Antimicrobial Awareness system working group AURA/OrgTrx (2015-present)
 * Australian Clinical Terminology User group Member (2011-present)
 * HL7 Australia O&O Working Group (2016-present)
@@ -39,6 +40,7 @@ Progressing Health System Interoperability has been my life for 25 years - it fi
 * Australian IHTSDO content committee rep (2011-2016), Standards Australia IT14-6-5 committee member (2001-2015)
 * RCPA Australian Pathology Units and Terminology Standardisation (PUTS) project member (2011-2012)
 * ACSQHC Working party on Cumulative Hospital Antibiograms (2012-2013)
+
   
 
  
