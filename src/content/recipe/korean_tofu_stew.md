@@ -1,4 +1,3 @@
-
 ---
 title: Korean Tofu Stew
 description: Korean spicy tofu soup
